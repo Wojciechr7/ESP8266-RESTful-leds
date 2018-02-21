@@ -1,0 +1,39 @@
+body {
+  padding: 50px;
+}
+.leds-container {
+  display: flex;
+  margin-top: 70px;
+}
+.led-blue {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 200px;
+  height: 300px;
+  margin-left: auto;
+  cursor: pointer;
+  transition: all 1s;
+}
+.led-blue.false {
+  background-image: url("../img/off.bmp");
+}
+.led-blue.true {
+  background-image: url("../img/blue-on.bmp");
+}
+.led-red {
+  background-image: url("../img/off.bmp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 200px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  transition: all .5s;
+}
+.led-red.false {
+  background-image: url("../img/off.bmp");
+}
+.led-red.true {
+  background-image: url("../img/red-on.bmp");
+}
