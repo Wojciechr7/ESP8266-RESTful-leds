@@ -8,6 +8,7 @@ var app = require('../app');
 var debug = require('debug')('todo-api:server');
 var http = require('http');
 
+
 /**
  * Get port from environment and store in Express.
  */
@@ -20,14 +21,36 @@ app.set('port', port);
  */
 
 var server = http.createServer(app);
-
+var io = require('socket.io')(server);
 /**
  * Listen on provided port, on all network interfaces.
  */
 
+var button0 = true;
+
 server.listen(port);
 server.on('error', onError);
 server.on('listening', onListening);
+
+io.on('connection', function(socket){
+    socket.on('event', function(msg){
+        io.emit('event', msg);
+    });
+    socket.on('update browser', function(){
+        io.emit('update browser');
+    });
+    socket.on('button 0', function(){
+        if (button0) {
+            io.emit('switch leds');
+            button0 = false;
+            setTimeout(function() {
+                button0 = true;
+            }, 1000);
+        }
+    });
+});
+
+
 
 /**
  * Normalize a port into a number, string, or false.

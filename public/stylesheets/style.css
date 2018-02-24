@@ -12,16 +12,16 @@ body {
   height: 300px;
   margin-left: auto;
   cursor: pointer;
-  transition: all 1s;
+  transition: all .5s;
 }
 .led-blue.false {
-  background-image: url("../img/off.bmp");
+  background-image: url("../img/off.jpg");
 }
 .led-blue.true {
-  background-image: url("../img/blue-on.bmp");
+  background-image: url("../img/blue-on.jpg");
 }
 .led-red {
-  background-image: url("../img/off.bmp");
+  background-image: url("../img/off.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 200px;
@@ -31,9 +31,10 @@ body {
   cursor: pointer;
   transition: all .5s;
 }
+
 .led-red.false {
-  background-image: url("../img/off.bmp");
+  background-image: url("../img/off.jpg");
 }
 .led-red.true {
-  background-image: url("../img/red-on.bmp");
+  background-image: url("../img/red-on.jpg");
 }
