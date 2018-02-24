@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="36a6a882-8f78-466a-a9fa-4b9ec73d2ec9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/public/img/project.JPG" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +47,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="144">
-                <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+              <first_editor relative-caret-position="126">
+                <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -272,7 +270,7 @@
       <workItem from="1519343292569" duration="9014000" />
       <workItem from="1519380499729" duration="4965000" />
       <workItem from="1519388113719" duration="1264000" />
-      <workItem from="1519469390448" duration="16192000" />
+      <workItem from="1519469390448" duration="16244000" />
     </task>
     <task id="LOCAL-00001" summary="create restful api for ESP8266 project">
       <created>1519171671871</created>
@@ -288,11 +286,18 @@
       <option name="project" value="LOCAL" />
       <updated>1519491483446</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add README">
+      <created>1519492232717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1519492232717</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42767000" />
+    <option name="totallyTimeSpent" value="42819000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1703" y="9" width="1617" height="1062" extended-state="6" />
@@ -328,7 +333,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="create restful api for ESP8266 project" />
     <MESSAGE value="implement websockets" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement websockets" />
+    <MESSAGE value="add README" />
+    <option name="LAST_COMMIT_MESSAGE" value="add README" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -697,8 +703,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="144">
-            <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <first_editor relative-caret-position="126">
+            <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             <folding />
           </first_editor>
           <second_editor />
